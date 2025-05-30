@@ -7,6 +7,17 @@ const App: React.FC = () => {
     <div className="App">
       <h1>CGPA Calculator</h1>
       <CGPACalculator />
+      <div className="powered-by">
+        Powered by: <span>
+          <a
+            href="https://github.com/DrazzyDre"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DrazzyDre
+          </a>
+        </span>
+      </div>
     </div>
   );
 }

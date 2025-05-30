@@ -5,3 +5,4 @@ export function calculateCGPA(totalGradePoints: number, totalUnits: number): num
     const cgpa = totalGradePoints / totalUnits;
     return parseFloat(cgpa.toFixed(2));
 }
+
