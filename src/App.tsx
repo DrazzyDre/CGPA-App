@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import React from 'react';
 import CGPACalculator from './components/CGPACalculator';
 import './App.css';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           </a>
         </span>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
